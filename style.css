@@ -1,0 +1,145 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body{
+height: 100%;
+width: 100%;
+font-family: "Poppins", sans-serif;
+
+
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    /* background-color: lightsalmon; */
+
+
+}
+
+.upper{
+
+   height: 80%;
+   width: 100%;
+   /* background-color: aqua; */
+   display: flex;
+   align-items: flex-start;
+    justify-content: center;
+
+
+}
+
+.box{
+
+    height:100%;
+    width: 25%;
+    /* background-color: crimson; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+.upper-box{
+    height: 15%;
+    /* background-color: lime; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.lower-box{
+
+    height: 60%;
+    width: 70%;
+    /* background-color:lightsalmon; */
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 1.1vw;
+   
+
+}
+
+.lower-box h5{
+
+font-size: 1.7vw;
+font-weight: 400;
+line-height: 2;
+
+}
+
+
+label{
+    font-weight: 600;
+    font-size: .8vw;
+}
+
+input{
+    width: 95%;
+    padding: .4vw;
+    border-radius: 5px;
+    border: 1.5px solid lightslategrey;
+    margin-bottom: .8vw;
+}
+
+.lower-box button{
+ 
+    /* margin-left:.4vw ; */
+border-radius: 8px;
+    padding: .4vw 7vw;
+    background-color: #ffd60a;
+    border: 0px solid yellow;
+    font-size: .8vw;
+
+}
+
+.lower-box p{
+
+    font-size: .7vw;
+
+}
+
+
+.lower-box p strong{
+    color: rgb(73, 73, 216);
+    font-weight: 400;
+    line-height: 1;
+}
+
+.lower-box a{
+font-size: .8vw;
+color: rgb(73, 73, 216);
+text-decoration: none;
+/* line-height: 3; */
+
+}
+
+.lower-box a i{
+    font-size: .9vw;
+    color: black;
+}
+
+.lower-box h4{
+
+    font-size: .8vw;
+    font-weight: 500;
+    line-height: 2;
+}
+.box p{
+    /* margin-left: -1vw; */
+color: rgb(75, 75, 75);
+    font-size: .8vw;
+}
+
+button{
+margin-top: .8vw;
+border-radius: 10px;
+padding: .4vw 4.3vw;
+background-color: transparent;
+border: 1px solid gray;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
